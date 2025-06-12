@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="css/index.css"/>
+    </head>
+    <body>
+        
+        <!-- Header section -->
+        <header>
+            <div class="container">
+                <h1 class="logo">Logo</h1>
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <div class="menu-sm">                        
+                    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- End Header section -->
+        <!-- Hero section -->
+        <section class="hero">
+            <h2 class="section-title">Welcome to My Portfolio</h2>
+            <p class="tagline">UI Developer</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </section>
+        <!-- End Hero section -->
+        
+
+        <!-- Aboutme section -->
+        <section id="about" class="about">
+            <h2 class="section-title">About Me</h2>            
+            <p>Hello! I'm a web developer with experience in building responsive websites.</p>
+            <img src="assets/profile.png" alt="Profile Photo" class="profile-img"/>
+            <ul class="skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Jquery</li>
+                <li>React JS</li>
+                <li>Bootstrap</li>
+            </ul>
+        </section>
+        <!-- End Aboutme section -->
+
+        <!-- Projects section -->
+        <section id="projects" class="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="assets/project.jpg" alt="Project 1">
+                    <h3>Project One</h3>
+                    <p>A brief description of the project.</p>
+                    <a href="https://github.com/rohiniaj/POC">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="assets/project.jpg" alt="Project 2">
+                    <h3>Project Two</h3>
+                    <p>A brief description of the project.</p>
+                    <a href="https://github.com/rohiniaj/POC">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="assets/project.jpg" alt="Project 3">
+                    <h3>Project Three</h3>
+                    <p>A brief description of the project.</p>
+                    <a href="https://github.com/rohiniaj/POC">View Project</a>
+                </div>
+            </div>
+        </section>
+        <!-- End Projects section -->
+
+        <!-- Contactform section -->
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your name" required>
+                <input type="email" placeholder="Your email" required>
+                <textarea placeholder="Your message" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <!-- End Contactform section -->
+
+        <!-- Footer section -->
+        <footer>
+            <p>Social on 
+            <a href="#">Twitter</a>, 
+            <a href="#">LinkedIn</a>, 
+            <a href="#">GitHub</a>
+            </p>
+            <p>&copy; 2025 My Portfolio</p>
+        </footer>
+        <!-- End Footer section -->
+
+    </body>
+</html>
