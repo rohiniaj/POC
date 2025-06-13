@@ -1,17 +1,26 @@
+
+:root {
+  --font-family: Arial, sans-serif;
+  --line-ht: 1.6;
+  --color-f4:#f4f4f4;
+  --color-66:#666;
+  --color-white:#fff;
+  --color-grey:#7a8a9c;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f4f4f4;
+  font-family: var(--font-family);
+  line-height: var(--line-ht);
+  background-color: var(--color-f4);
 }
 /* Header section  */
 header {
-  background: #666;
-  color: #fff;
+  background: var(--color-66);
+  color: var(--color-white);
   padding: 1rem 0;
 }
 .container {
@@ -23,7 +32,7 @@ header {
 }
 .logo {
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--color-white);
 }
 .nav-links {
   list-style: none;
@@ -33,7 +42,7 @@ header {
   margin-left: 20px;
 }
 .nav-links a {
-  color: #fff;
+  color: var(--color-white);
   text-decoration: none;
 }
 .menu-toggle {
@@ -47,8 +56,8 @@ header {
 /* End header section */
 /* Hero section */
 .hero {
-  background: #7a8a9c;
-  color: #fff;
+  background: var(--color-grey);
+  color: var(--color-white);
   text-align: center;
   padding: 4rem 1rem;
 }
@@ -56,8 +65,8 @@ header {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.5rem 1rem;
-  background: #fff;
-  color: #7a8a9c;
+  background: var(--color-white);
+  color: var(--color-grey);
   text-decoration: none;
   border-radius: 5px;
 }
@@ -89,7 +98,7 @@ header {
   gap: 1rem;
 }
 .project-card {
-  background: #fff;
+  background: var(--color-white);
   padding: 1rem;
   width: 300px;
   border-radius: 5px;
@@ -118,19 +127,19 @@ header {
 .contact button {
   padding: 0.5rem;
   background: #007BFF;
-  color: #fff;
+  color: var(--color-white);
   border: none;
   border-radius: 5px;
 }
 footer {
   background: #333;
-  color: #fff;
+  color: var(--color-white);
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
 }
 footer a {
-  color: #fff;
+  color: var(--color-white);
   text-decoration: underline;
 }
 
